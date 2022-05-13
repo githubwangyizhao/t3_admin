@@ -1,0 +1,1 @@
+ALTER TABLE `platform_client_info` MODIFY COLUMN `client_version` VARCHAR(50) NOT NULL DEFAULT '4.16' COMMENT '客户端版本号';

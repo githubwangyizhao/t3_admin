@@ -1,0 +1,1 @@
+alter table `platform` add column `tracker_token` varchar(32) not null default '0' COMMENT 'adjust的tracker_token' after `version`

@@ -1,0 +1,2 @@
+alter table `platform_client_info` add column `domain` varchar(100) not null default 'https://version.daggerofbonuses.com' comment '正式中心服域名' after `area_code`;
+alter table `platform_client_info` add column `test_domain` varchar(100) not null default 'http://8.218.105.9:6663' comment '审核中心服域名' after `domain`

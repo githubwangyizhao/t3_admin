@@ -1,0 +1,39 @@
+{
+  "ignore_list": [
+    "db_version",
+    "robot_player_data",
+    "player_finish_share_task",
+    "player_invite_friend",
+    "server_data",
+    "faction_booty_order_time",
+    "answer_data",
+    "client_versin"
+  ],
+  "clean_list": [
+    "player_arena_fight_record",
+    "player_arena",
+    "player_arena_target",
+    "player_assassinate",
+    "player_assassinate_state",
+    "player_login_log",
+    "player_online_log",
+    "rank_info",
+    "test",
+    "timer_data",
+    "battleground_boss_record",
+    "activity_data_info",
+    "player_activity",
+    "activity_award",
+    "player_impact_rank",
+    "daily_video_data",
+    "consume_statistics"
+  ],
+  "foreign_key_map_list": [
+    {
+      "table": "player_arena_fight_record",
+      "filed": "fight_player_id",
+      "foreign_table": "player",
+      "foreign_key": "id"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+2022-03-28 09:43:17.329 [WARN] local push list first init time : 2022-03-17 16:59:00
+2022-03-28 09:43:17.330 [WARN] local push list first init time : 2022-03-17 16:59:44
+09:43:17 [INFO] Cron.go:61: 初始化定时器
+09:43:17 [INFO] CronNoticeLog.go:41: 初始广播内容订时器:2022-03-28 09:43:17
+09:43:17 [WARN] init.go:50: 已开始准备接收推送数据....
+09:43:17 [INFO] Statistics.go:189: 更新所有总体留存:%v 1648310400
+09:43:17 [INFO] MergeHandle.go:620: 初始合服订时器:2022-03-28 09:43:17
+09:43:17 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s1 local_test 1648310400
+09:43:17 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1648310400
+09:43:17 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1648310400
+09:43:17 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1648310400
+09:43:17 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s160 local_test 1648310400
+09:43:17 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s184 local_test 1648310400

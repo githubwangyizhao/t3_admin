@@ -1,0 +1,1 @@
+ALTER TABLE daily_statistics ADD COLUMN `first_charge_total_money` float NOT NULL DEFAULT '0' COMMENT '首充金额' after first_charge_player_count;

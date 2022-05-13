@@ -1,0 +1,3328 @@
+2022-03-17 16:59:00.650 [WARN] 首次启动需要初始化推送列表，请耐心等待初始化完成....... ,也可能是在扫描新的表 : local
+2022-03-17 16:59:22.040 [ERRO] 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/memdb.ScanNopushAccInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:222
+3.  gfWeb/memdb.ScanDataInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:172
+4.  gfWeb/memdb.init.0
+    e:/work/cur/t4_admin/gfWeb/memdb/bolt.go:36
+
+2022-03-17 16:59:22.040 [ERRO] 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/memdb.ScanNopushAccInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:223
+3.  gfWeb/memdb.ScanDataInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:172
+4.  gfWeb/memdb.init.0
+    e:/work/cur/t4_admin/gfWeb/memdb/bolt.go:36
+
+2022-03-17 16:59:43.124 [ERRO] 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/memdb.ScanNopushAccInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:222
+3.  gfWeb/memdb.ScanDataInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:172
+4.  gfWeb/memdb.init.0
+    e:/work/cur/t4_admin/gfWeb/memdb/bolt.go:36
+
+2022-03-17 16:59:43.124 [ERRO] 检查是否有错误:[] dial tcp 192.168.31.46:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/memdb.ScanNopushAccInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:223
+3.  gfWeb/memdb.ScanDataInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:172
+4.  gfWeb/memdb.init.0
+    e:/work/cur/t4_admin/gfWeb/memdb/bolt.go:36
+
+2022-03-17 16:59:43.128 [ERRO] 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/memdb.ScanNopushAccInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:222
+3.  gfWeb/memdb.ScanDataInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:172
+4.  gfWeb/memdb.init.0
+    e:/work/cur/t4_admin/gfWeb/memdb/bolt.go:36
+
+2022-03-17 16:59:43.128 [ERRO] 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/memdb.ScanNopushAccInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:223
+3.  gfWeb/memdb.ScanDataInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:172
+4.  gfWeb/memdb.init.0
+    e:/work/cur/t4_admin/gfWeb/memdb/bolt.go:36
+
+2022-03-17 16:59:44.467 [WARN] 推送表初始化成功....
+2022-03-17 16:59:44.468 [WARN] 首次启动需要初始化推送列表，请耐心等待初始化完成....... ,也可能是在扫描新的表 : test
+2022-03-17 17:00:05.738 [ERRO] 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/memdb.ScanNopushAccInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:222
+3.  gfWeb/memdb.ScanDataInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:172
+4.  gfWeb/memdb.init.0
+    e:/work/cur/t4_admin/gfWeb/memdb/bolt.go:36
+
+2022-03-17 17:00:05.738 [ERRO] 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/memdb.ScanNopushAccInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:223
+3.  gfWeb/memdb.ScanDataInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:172
+4.  gfWeb/memdb.init.0
+    e:/work/cur/t4_admin/gfWeb/memdb/bolt.go:36
+
+2022-03-17 17:00:05.812 [ERRO] 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/memdb.ScanNopushAccInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:222
+3.  gfWeb/memdb.ScanDataInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:172
+4.  gfWeb/memdb.init.0
+    e:/work/cur/t4_admin/gfWeb/memdb/bolt.go:36
+
+2022-03-17 17:00:05.813 [ERRO] 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/memdb.ScanNopushAccInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:223
+3.  gfWeb/memdb.ScanDataInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:172
+4.  gfWeb/memdb.init.0
+    e:/work/cur/t4_admin/gfWeb/memdb/bolt.go:36
+
+2022-03-17 17:00:05.814 [ERRO] 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/memdb.ScanNopushAccInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:222
+3.  gfWeb/memdb.ScanDataInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:172
+4.  gfWeb/memdb.init.0
+    e:/work/cur/t4_admin/gfWeb/memdb/bolt.go:36
+
+2022-03-17 17:00:05.815 [ERRO] 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/memdb.ScanNopushAccInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:223
+3.  gfWeb/memdb.ScanDataInTable
+    e:/work/cur/t4_admin/gfWeb/memdb/pushList.go:172
+4.  gfWeb/memdb.init.0
+    e:/work/cur/t4_admin/gfWeb/memdb/bolt.go:36
+
+2022-03-17 17:00:07.220 [WARN] 推送表初始化成功....
+17:00:07 [INFO] Cron.go:61: 初始化定时器
+17:00:07 [INFO] MergeHandle.go:620: 初始合服订时器:2022-03-17 17:00:07
+17:00:07 [INFO] CronNoticeLog.go:41: 初始广播内容订时器:2022-03-17 17:00:07
+17:00:07 [INFO] Statistics.go:189: 更新所有总体留存:%v 1647360000
+17:00:07 [WARN] init.go:50: 已开始准备接收推送数据....
+17:00:07 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s1 local_test 1647360000
+17:00:07 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1647360000
+17:00:07 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1647360000
+17:00:07 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1647360000
+17:00:07 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s160 local_test 1647360000
+17:00:07 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s184 local_test 1647360000
+17:00:28 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:233
+
+17:00:28 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:233
+
+17:00:28 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:233
+
+17:00:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1647360000
+17:00:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1647360000
+17:00:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1647360000
+17:00:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1647360000
+17:00:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1647360000
+17:00:28 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:233
+
+17:00:28 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:233
+
+17:00:28 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:233
+
+17:00:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1647360000
+17:00:28 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:233
+
+17:00:28 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:233
+
+17:00:28 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:233
+
+17:00:28 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:00:28 [INFO] Statistics.go:189: 更新所有总体留存:%v 1647273600
+17:00:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1647273600
+17:00:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1647273600
+17:00:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1647273600
+17:00:28 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:28 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:28 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:28 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s197 local_test 1647360000
+17:00:28 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s2 local_test 1647360000
+17:00:29 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s3 local_test 1647360000
+17:00:29 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s4 local_test 1647360000
+17:00:29 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s46 local_test 1647360000
+17:00:29 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:29 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:29 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:29 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v test s153 test 1647360000
+17:00:29 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:29 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:29 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:29 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s1 local_test 1647273600
+17:00:29 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s160 local_test 1647273600
+17:00:29 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s184 local_test 1647273600
+17:00:49 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:234
+
+17:00:49 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:234
+
+17:00:49 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:234
+
+17:00:49 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1647273600
+17:00:49 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1647273600
+17:00:49 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1647273600
+17:00:49 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1647273600
+17:00:49 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1647273600
+17:00:49 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:234
+
+17:00:49 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:234
+
+17:00:49 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:234
+
+17:00:49 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1647273600
+17:00:49 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:234
+
+17:00:49 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:234
+
+17:00:49 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:234
+
+17:00:49 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:00:49 [INFO] Statistics.go:189: 更新所有总体留存:%v 1647187200
+17:00:49 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1647187200
+17:00:49 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1647187200
+17:00:49 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1647187200
+17:00:50 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:50 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:50 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:50 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s197 local_test 1647273600
+17:00:51 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s2 local_test 1647273600
+17:00:51 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s3 local_test 1647273600
+17:00:51 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s4 local_test 1647273600
+17:00:51 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s46 local_test 1647273600
+17:00:51 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:51 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:51 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:51 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v test s153 test 1647273600
+17:00:51 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:51 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:51 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:00:51 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s1 local_test 1647187200
+17:00:52 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s160 local_test 1647187200
+17:00:52 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s184 local_test 1647187200
+17:01:10 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:235
+
+17:01:10 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:235
+
+17:01:10 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:235
+
+17:01:10 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1647187200
+17:01:10 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1647187200
+17:01:10 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1647187200
+17:01:10 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1647187200
+17:01:10 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1647187200
+17:01:10 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:235
+
+17:01:10 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:235
+
+17:01:10 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:235
+
+17:01:10 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1647187200
+17:01:10 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:235
+
+17:01:10 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:235
+
+17:01:10 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:235
+
+17:01:10 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:01:10 [INFO] Statistics.go:189: 更新所有总体留存:%v 1647100800
+17:01:10 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1647100800
+17:01:10 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1647100800
+17:01:10 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1647100800
+17:01:13 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:13 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:13 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:13 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s197 local_test 1647187200
+17:01:13 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s2 local_test 1647187200
+17:01:13 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s3 local_test 1647187200
+17:01:13 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s4 local_test 1647187200
+17:01:14 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s46 local_test 1647187200
+17:01:14 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:14 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:14 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:14 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v test s153 test 1647187200
+17:01:14 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:14 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:14 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:14 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s1 local_test 1647100800
+17:01:14 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s160 local_test 1647100800
+17:01:14 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s184 local_test 1647100800
+17:01:31 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:236
+
+17:01:31 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:236
+
+17:01:31 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:236
+
+17:01:31 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1647100800
+17:01:31 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1647100800
+17:01:31 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1647100800
+17:01:32 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1647100800
+17:01:32 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1647100800
+17:01:32 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:236
+
+17:01:32 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:236
+
+17:01:32 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:236
+
+17:01:32 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1647100800
+17:01:32 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:236
+
+17:01:32 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:236
+
+17:01:32 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:236
+
+17:01:32 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:01:32 [INFO] Statistics.go:189: 更新所有总体留存:%v 1647014400
+17:01:32 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1647014400
+17:01:32 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1647014400
+17:01:32 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1647014400
+17:01:35 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:35 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:35 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:35 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s197 local_test 1647100800
+17:01:35 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s2 local_test 1647100800
+17:01:35 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s3 local_test 1647100800
+17:01:36 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s4 local_test 1647100800
+17:01:36 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s46 local_test 1647100800
+17:01:36 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:36 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:36 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:36 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v test s153 test 1647100800
+17:01:36 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:36 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:36 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:36 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s1 local_test 1647014400
+17:01:36 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s160 local_test 1647014400
+17:01:36 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s184 local_test 1647014400
+17:01:53 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:237
+
+17:01:53 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:237
+
+17:01:53 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:237
+
+17:01:53 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1647014400
+17:01:53 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1647014400
+17:01:53 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1647014400
+17:01:53 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1647014400
+17:01:53 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1647014400
+17:01:53 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:237
+
+17:01:53 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:237
+
+17:01:53 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:237
+
+17:01:53 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1647014400
+17:01:53 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:237
+
+17:01:53 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:237
+
+17:01:53 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:237
+
+17:01:53 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:01:53 [INFO] Statistics.go:189: 更新所有总体留存:%v 1646928000
+17:01:53 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1646928000
+17:01:53 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1646928000
+17:01:53 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1646928000
+17:01:57 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:57 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:57 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:57 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s197 local_test 1647014400
+17:01:58 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s2 local_test 1647014400
+17:01:58 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s3 local_test 1647014400
+17:01:58 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s4 local_test 1647014400
+17:01:58 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s46 local_test 1647014400
+17:01:58 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:58 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:58 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:58 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v test s153 test 1647014400
+17:01:58 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:58 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:58 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:01:58 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s1 local_test 1646928000
+17:01:58 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s160 local_test 1646928000
+17:01:59 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s184 local_test 1646928000
+17:02:14 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:238
+
+17:02:14 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:238
+
+17:02:14 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:238
+
+17:02:14 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1646928000
+17:02:14 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1646928000
+17:02:14 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1646928000
+17:02:14 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1646928000
+17:02:14 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1646928000
+17:02:14 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:238
+
+17:02:14 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:238
+
+17:02:14 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:238
+
+17:02:14 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1646928000
+17:02:14 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:238
+
+17:02:14 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:238
+
+17:02:14 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:238
+
+17:02:14 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:02:14 [INFO] Statistics.go:189: 更新所有总体留存:%v 1646841600
+17:02:14 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1646841600
+17:02:14 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1646841600
+17:02:14 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1646841600
+17:02:20 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:20 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:20 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:20 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s197 local_test 1646928000
+17:02:20 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s2 local_test 1646928000
+17:02:20 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s3 local_test 1646928000
+17:02:20 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s4 local_test 1646928000
+17:02:21 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s46 local_test 1646928000
+17:02:21 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:21 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:21 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:21 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v test s153 test 1646928000
+17:02:21 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:21 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:21 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:21 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s1 local_test 1646841600
+17:02:21 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s160 local_test 1646841600
+17:02:21 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s184 local_test 1646841600
+17:02:35 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:239
+
+17:02:35 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:239
+
+17:02:35 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:239
+
+17:02:35 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1646841600
+17:02:35 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1646841600
+17:02:35 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1646841600
+17:02:35 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1646841600
+17:02:35 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1646841600
+17:02:35 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:239
+
+17:02:35 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:239
+
+17:02:35 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:239
+
+17:02:35 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1646841600
+17:02:35 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:239
+
+17:02:35 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:239
+
+17:02:35 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:239
+
+17:02:35 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:02:35 [INFO] Statistics.go:189: 更新所有总体留存:%v 1646755200
+17:02:35 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1646755200
+17:02:35 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1646755200
+17:02:35 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1646755200
+17:02:42 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:42 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:42 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:42 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s197 local_test 1646841600
+17:02:43 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s2 local_test 1646841600
+17:02:43 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s3 local_test 1646841600
+17:02:43 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s4 local_test 1646841600
+17:02:43 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s46 local_test 1646841600
+17:02:43 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:43 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:43 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:43 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v test s153 test 1646841600
+17:02:43 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:43 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:43 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:02:43 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s1 local_test 1646755200
+17:02:43 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s160 local_test 1646755200
+17:02:44 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s184 local_test 1646755200
+17:02:56 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:240
+
+17:02:56 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:240
+
+17:02:56 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:240
+
+17:02:56 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1646755200
+17:02:56 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1646755200
+17:02:56 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1646755200
+17:02:56 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1646755200
+17:02:56 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1646755200
+17:02:56 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:240
+
+17:02:56 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:240
+
+17:02:56 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:240
+
+17:02:56 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1646755200
+17:02:56 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:240
+
+17:02:56 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:240
+
+17:02:56 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:240
+
+17:02:56 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:02:56 [INFO] Statistics.go:189: 更新所有总体留存:%v 1646668800
+17:02:56 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1646668800
+17:02:56 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1646668800
+17:02:56 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1646668800
+17:03:05 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:05 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:05 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:05 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s197 local_test 1646755200
+17:03:05 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s2 local_test 1646755200
+17:03:05 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s3 local_test 1646755200
+17:03:05 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s4 local_test 1646755200
+17:03:06 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s46 local_test 1646755200
+17:03:06 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:06 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:06 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:06 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v test s153 test 1646755200
+17:03:06 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:06 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:06 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:06 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s1 local_test 1646668800
+17:03:06 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s160 local_test 1646668800
+17:03:06 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s184 local_test 1646668800
+17:03:18 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:241
+
+17:03:18 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:241
+
+17:03:18 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:241
+
+17:03:18 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1646668800
+17:03:18 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1646668800
+17:03:18 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1646668800
+17:03:18 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1646668800
+17:03:18 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1646668800
+17:03:18 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:241
+
+17:03:18 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:241
+
+17:03:18 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:241
+
+17:03:18 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1646668800
+17:03:18 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:241
+
+17:03:18 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:241
+
+17:03:18 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:241
+
+17:03:18 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:03:18 [INFO] Statistics.go:189: 更新所有总体留存:%v 1646582400
+17:03:18 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1646582400
+17:03:18 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1646582400
+17:03:18 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1646582400
+17:03:27 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:27 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:27 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:27 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s197 local_test 1646668800
+17:03:28 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s2 local_test 1646668800
+17:03:28 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s3 local_test 1646668800
+17:03:28 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s4 local_test 1646668800
+17:03:28 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s46 local_test 1646668800
+17:03:28 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:28 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:28 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:28 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v test s153 test 1646668800
+17:03:28 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:28 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:28 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:28 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s1 local_test 1646582400
+17:03:28 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s160 local_test 1646582400
+17:03:29 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s184 local_test 1646582400
+17:03:39 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:242
+
+17:03:39 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:242
+
+17:03:39 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:242
+
+17:03:39 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1646582400
+17:03:39 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1646582400
+17:03:39 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1646582400
+17:03:39 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1646582400
+17:03:39 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1646582400
+17:03:39 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:242
+
+17:03:39 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:242
+
+17:03:39 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:242
+
+17:03:39 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1646582400
+17:03:39 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:242
+
+17:03:39 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:242
+
+17:03:39 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:242
+
+17:03:39 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:03:39 [INFO] Statistics.go:189: 更新所有总体留存:%v 1646496000
+17:03:39 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1646496000
+17:03:39 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1646496000
+17:03:39 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1646496000
+17:03:50 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:50 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:50 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:50 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s197 local_test 1646582400
+17:03:50 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s2 local_test 1646582400
+17:03:50 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s3 local_test 1646582400
+17:03:51 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s4 local_test 1646582400
+17:03:51 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v local s46 local_test 1646582400
+17:03:51 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:51 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:51 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:51 [INFO] RemainActive.go:82: 更新 活跃留存:%v, %v, %v, %v test s153 test 1646582400
+17:03:51 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:92
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:51 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainActive.go:93
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:278
+4.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:03:51 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:279
+3.  gfWeb/app/models.RepairAllGameNodeRemainActive
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:252
+
+17:04:00 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:243
+
+17:04:00 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:243
+
+17:04:00 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:243
+
+17:04:00 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1646496000
+17:04:00 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1646496000
+17:04:00 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1646496000
+17:04:00 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1646496000
+17:04:00 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1646496000
+17:04:00 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:243
+
+17:04:00 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:243
+
+17:04:00 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:243
+
+17:04:00 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1646496000
+17:04:00 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:243
+
+17:04:00 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:243
+
+17:04:00 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:243
+
+17:04:00 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:04:00 [INFO] Statistics.go:189: 更新所有总体留存:%v 1646409600
+17:04:00 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1646409600
+17:04:00 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1646409600
+17:04:00 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1646409600
+17:04:21 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:244
+
+17:04:21 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:244
+
+17:04:21 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:244
+
+17:04:21 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1646409600
+17:04:21 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1646409600
+17:04:21 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1646409600
+17:04:21 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1646409600
+17:04:21 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1646409600
+17:04:21 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:244
+
+17:04:21 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:244
+
+17:04:21 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:244
+
+17:04:21 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1646409600
+17:04:21 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:244
+
+17:04:21 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:244
+
+17:04:21 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:244
+
+17:04:21 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:04:21 [INFO] Statistics.go:189: 更新所有总体留存:%v 1646323200
+17:04:21 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1646323200
+17:04:21 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1646323200
+17:04:21 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1646323200
+17:04:42 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:245
+
+17:04:42 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:245
+
+17:04:42 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:245
+
+17:04:42 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1646323200
+17:04:42 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1646323200
+17:04:42 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1646323200
+17:04:42 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1646323200
+17:04:42 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1646323200
+17:04:42 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:245
+
+17:04:42 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:245
+
+17:04:42 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:245
+
+17:04:42 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1646323200
+17:04:42 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:245
+
+17:04:42 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:245
+
+17:04:42 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:245
+
+17:04:42 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:04:42 [INFO] Statistics.go:189: 更新所有总体留存:%v 1646236800
+17:04:42 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1646236800
+17:04:43 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1646236800
+17:04:43 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1646236800
+17:05:04 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:246
+
+17:05:04 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:246
+
+17:05:04 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:246
+
+17:05:04 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1646236800
+17:05:04 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1646236800
+17:05:04 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1646236800
+17:05:04 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1646236800
+17:05:04 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1646236800
+17:05:04 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:246
+
+17:05:04 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:246
+
+17:05:04 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:246
+
+17:05:04 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1646236800
+17:05:04 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:246
+
+17:05:04 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:246
+
+17:05:04 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:246
+
+17:05:04 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:05:04 [INFO] Statistics.go:189: 更新所有总体留存:%v 1646150400
+17:05:04 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1646150400
+17:05:04 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1646150400
+17:05:04 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1646150400
+17:05:25 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:247
+
+17:05:25 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:247
+
+17:05:25 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:247
+
+17:05:25 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1646150400
+17:05:25 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1646150400
+17:05:25 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1646150400
+17:05:25 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1646150400
+17:05:25 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1646150400
+17:05:25 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:247
+
+17:05:25 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:247
+
+17:05:25 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:247
+
+17:05:25 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1646150400
+17:05:25 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:247
+
+17:05:25 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:247
+
+17:05:25 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:247
+
+17:05:25 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:05:25 [INFO] Statistics.go:189: 更新所有总体留存:%v 1646064000
+17:05:25 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1646064000
+17:05:25 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1646064000
+17:05:25 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1646064000
+17:05:46 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:248
+
+17:05:46 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:248
+
+17:05:46 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:248
+
+17:05:46 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1646064000
+17:05:46 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1646064000
+17:05:46 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1646064000
+17:05:46 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1646064000
+17:05:46 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1646064000
+17:05:46 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:248
+
+17:05:46 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:248
+
+17:05:46 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:248
+
+17:05:46 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1646064000
+17:05:46 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:248
+
+17:05:46 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:248
+
+17:05:46 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:248
+
+17:05:46 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:05:46 [INFO] Statistics.go:189: 更新所有总体留存:%v 1645977600
+17:05:46 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1645977600
+17:05:46 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1645977600
+17:05:46 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1645977600
+17:06:07 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:249
+
+17:06:07 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:249
+
+17:06:07 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:249
+
+17:06:07 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1645977600
+17:06:07 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1645977600
+17:06:07 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1645977600
+17:06:07 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1645977600
+17:06:07 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1645977600
+17:06:07 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:249
+
+17:06:07 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:249
+
+17:06:07 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:249
+
+17:06:07 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1645977600
+17:06:07 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:249
+
+17:06:07 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:249
+
+17:06:07 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:249
+
+17:06:07 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:06:07 [INFO] Statistics.go:189: 更新所有总体留存:%v 1645891200
+17:06:07 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1645891200
+17:06:07 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1645891200
+17:06:07 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1645891200
+17:06:28 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:250
+
+17:06:28 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:250
+
+17:06:28 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:250
+
+17:06:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1645891200
+17:06:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1645891200
+17:06:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1645891200
+17:06:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1645891200
+17:06:28 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1645891200
+17:06:29 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:250
+
+17:06:29 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:250
+
+17:06:29 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:250
+
+17:06:29 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1645891200
+17:06:29 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:250
+
+17:06:29 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:250
+
+17:06:29 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:250
+
+17:06:29 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:06:29 [INFO] Statistics.go:189: 更新所有总体留存:%v 1645804800
+17:06:29 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1645804800
+17:06:29 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1645804800
+17:06:29 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1645804800
+17:06:50 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:251
+
+17:06:50 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:251
+
+17:06:50 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:251
+
+17:06:50 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1645804800
+17:06:50 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1645804800
+17:06:50 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1645804800
+17:06:50 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1645804800
+17:06:50 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1645804800
+17:06:50 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:251
+
+17:06:50 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:251
+
+17:06:50 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:251
+
+17:06:50 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1645804800
+17:06:50 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:251
+
+17:06:50 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:251
+
+17:06:50 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:251
+
+17:06:50 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:06:50 [INFO] Statistics.go:189: 更新所有总体留存:%v 1645718400
+17:06:50 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s1 1 1645718400
+17:06:50 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s160 1 1645718400
+17:06:50 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s184 1 1645718400
+17:07:11 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:252
+
+17:07:11 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:252
+
+17:07:11 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:252
+
+17:07:11 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s197 1 1645718400
+17:07:11 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s2 1 1645718400
+17:07:11 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s3 1 1645718400
+17:07:11 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s4 1 1645718400
+17:07:11 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v local s46 1 1645718400
+17:07:11 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:252
+
+17:07:11 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:252
+
+17:07:11 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:252
+
+17:07:11 [INFO] RemainTotal.go:162: 更新总体留存:%v, %v, %v, %v test s153 1 1645718400
+17:07:11 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:172
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:252
+
+17:07:11 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.UpdateRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/RemainTotal.go:173
+3.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:203
+4.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:252
+
+17:07:11 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:204
+3.  gfWeb/app/models.RepireRemainTotal
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:252
+
+17:07:11 [INFO] Statistics.go:208: 更新所有总体留存完毕。
+17:10:00 [INFO] Cron.go:364: 整点10分钟定时执行:2022-03-17 17:10:00
+17:10:00 [INFO] Statistics.go:65: 更新每10分钟统计:1647508200
+17:10:21 [ERRO] Common.go:137: 连接节点(t3_s184@192.168.31.184)数据库失败:root:game1234@tcp(192.168.31.184:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateTenMinuteStatistics
+    e:/work/cur/t4_admin/gfWeb/app/models/TenMinuteStatistics.go:29
+3.  gfWeb/app/models.DoUpdateAllGameNodeTenMinuteStatistics
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:80
+4.  gfWeb/app/models.tenMinuteClockCron
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:365
+5.  github.com/gogf/gf/os/gcron.(*Entry).check
+    C:/Users/Administrator/go/pkg/mod/github.com/gogf/gf@v1.16.1/os/gcron/gcron_entry.go:146
+6.  github.com/gogf/gf/os/gtimer.(*Entry).Run.func1
+    C:/Users/Administrator/go/pkg/mod/github.com/gogf/gf@v1.16.1/os/gtimer/gtimer_entry.go:59
+
+17:10:21 [ERRO] global.go:30: 检查是否有错误:[] dial tcp 192.168.31.184:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeTenMinuteStatistics
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:81
+3.  gfWeb/app/models.tenMinuteClockCron
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:365
+4.  github.com/gogf/gf/os/gcron.(*Entry).check
+    C:/Users/Administrator/go/pkg/mod/github.com/gogf/gf@v1.16.1/os/gcron/gcron_entry.go:146
+5.  github.com/gogf/gf/os/gtimer.(*Entry).Run.func1
+    C:/Users/Administrator/go/pkg/mod/github.com/gogf/gf@v1.16.1/os/gtimer/gtimer_entry.go:59
+
+17:10:21 [ERRO] Common.go:137: 连接节点(t3_s46@192.168.31.46)数据库失败:root:game1234@tcp(192.168.31.46:3306)/db_t3_game_s1?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateTenMinuteStatistics
+    e:/work/cur/t4_admin/gfWeb/app/models/TenMinuteStatistics.go:29
+3.  gfWeb/app/models.DoUpdateAllGameNodeTenMinuteStatistics
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:80
+4.  gfWeb/app/models.tenMinuteClockCron
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:365
+5.  github.com/gogf/gf/os/gcron.(*Entry).check
+    C:/Users/Administrator/go/pkg/mod/github.com/gogf/gf@v1.16.1/os/gcron/gcron_entry.go:146
+6.  github.com/gogf/gf/os/gtimer.(*Entry).Run.func1
+    C:/Users/Administrator/go/pkg/mod/github.com/gogf/gf@v1.16.1/os/gtimer/gtimer_entry.go:59
+
+17:10:21 [ERRO] global.go:30: 检查是否有错误:[] Error 1045: Access denied for user 'root'@'172.20.0.1' (using password: YES) 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeTenMinuteStatistics
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:81
+3.  gfWeb/app/models.tenMinuteClockCron
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:365
+4.  github.com/gogf/gf/os/gcron.(*Entry).check
+    C:/Users/Administrator/go/pkg/mod/github.com/gogf/gf@v1.16.1/os/gcron/gcron_entry.go:146
+5.  github.com/gogf/gf/os/gtimer.(*Entry).Run.func1
+    C:/Users/Administrator/go/pkg/mod/github.com/gogf/gf@v1.16.1/os/gtimer/gtimer_entry.go:59
+
+17:10:21 [ERRO] Common.go:137: 连接节点(test_s153@192.168.31.153)数据库失败:root:game1234@tcp(127.0.0.1:3306)/db_t3_game_s2?charset=utf8&parseTime=True&loc=Local 
+Stack:
+1.  gfWeb/app/models.GetGameDbByNode
+    e:/work/cur/t4_admin/gfWeb/app/models/Common.go:137
+2.  gfWeb/app/models.UpdateTenMinuteStatistics
+    e:/work/cur/t4_admin/gfWeb/app/models/TenMinuteStatistics.go:29
+3.  gfWeb/app/models.DoUpdateAllGameNodeTenMinuteStatistics
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:80
+4.  gfWeb/app/models.tenMinuteClockCron
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:365
+5.  github.com/gogf/gf/os/gcron.(*Entry).check
+    C:/Users/Administrator/go/pkg/mod/github.com/gogf/gf@v1.16.1/os/gcron/gcron_entry.go:146
+6.  github.com/gogf/gf/os/gtimer.(*Entry).Run.func1
+    C:/Users/Administrator/go/pkg/mod/github.com/gogf/gf@v1.16.1/os/gtimer/gtimer_entry.go:59
+
+17:10:21 [ERRO] global.go:30: 检查是否有错误:[] Error 1049: Unknown database 'db_t3_game_s2' 
+Stack:
+1.  gfWeb/library/utils.CheckError
+    e:/work/cur/t4_admin/gfWeb/library/utils/global.go:30
+2.  gfWeb/app/models.DoUpdateAllGameNodeTenMinuteStatistics
+    e:/work/cur/t4_admin/gfWeb/app/models/Statistics.go:81
+3.  gfWeb/app/models.tenMinuteClockCron
+    e:/work/cur/t4_admin/gfWeb/app/models/Cron.go:365
+4.  github.com/gogf/gf/os/gcron.(*Entry).check
+    C:/Users/Administrator/go/pkg/mod/github.com/gogf/gf@v1.16.1/os/gcron/gcron_entry.go:146
+5.  github.com/gogf/gf/os/gtimer.(*Entry).Run.func1
+    C:/Users/Administrator/go/pkg/mod/github.com/gogf/gf@v1.16.1/os/gtimer/gtimer_entry.go:59
+
+17:10:21 [INFO] Statistics.go:84: 更新每10分钟完毕.
+17:10:21 [DEBU] CheckSys.go:13: 检测后台web活跃数据
